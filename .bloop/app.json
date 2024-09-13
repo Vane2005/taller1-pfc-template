@@ -2,11 +2,11 @@
     "version": "1.4.0",
     "project": {
         "name": "app",
-        "directory": "D:\\taller1-pfc-template\\app",
-        "workspaceDir": "D:\\taller1-pfc-template",
+        "directory": "D:\\4 SEMESTRE\\PFC\\taller1-pfc-template\\app",
+        "workspaceDir": "D:\\4 SEMESTRE\\PFC\\taller1-pfc-template",
         "sources": [
-            "D:\\taller1-pfc-template\\app\\src\\main\\scala",
-            "D:\\taller1-pfc-template\\app\\src\\main\\java"
+            "D:\\4 SEMESTRE\\PFC\\taller1-pfc-template\\app\\src\\main\\scala",
+            "D:\\4 SEMESTRE\\PFC\\taller1-pfc-template\\app\\src\\main\\java"
         ],
         "dependencies": [
             
@@ -30,10 +30,10 @@
             "C:\\Users\\USUARIO\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm\\5.0.4\\da08b8cce7bbf903602a25a3a163ae252435795\\asm-5.0.4.jar",
             "C:\\Users\\USUARIO\\.gradle\\caches\\modules-2\\files-2.1\\org.jline\\jline\\3.10.0\\5a1cf6bd0d3967ec99b2b63cfc3e1987c911b3df\\jline-3.10.0.jar"
         ],
-        "out": "D:\\taller1-pfc-template\\.bloop\\app\\build",
-        "classesDir": "D:\\taller1-pfc-template\\.bloop\\app\\build\\classes",
+        "out": "D:\\4 SEMESTRE\\PFC\\taller1-pfc-template\\.bloop\\app\\build",
+        "classesDir": "D:\\4 SEMESTRE\\PFC\\taller1-pfc-template\\.bloop\\app\\build\\classes",
         "resources": [
-            "D:\\taller1-pfc-template\\app\\src\\main\\resources"
+            "D:\\4 SEMESTRE\\PFC\\taller1-pfc-template\\app\\src\\main\\resources"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -72,7 +72,7 @@
                 "-source",
                 "17",
                 "-h",
-                "D:\\taller1-pfc-template\\app\\build\\generated\\sources\\headers\\java\\main",
+                "D:\\4 SEMESTRE\\PFC\\taller1-pfc-template\\app\\build\\generated\\sources\\headers\\java\\main",
                 "-g",
                 "-sourcepath",
                 "",
@@ -210,17 +210,17 @@
                 },
                 {
                     "organization": "org.scalatest",
-                    "name": "scalatest-matchers-core_2.13",
+                    "name": "scalatest-freespec_2.13",
                     "version": "3.2.16",
                     "artifacts": [
                         {
-                            "name": "scalatest-matchers-core_2.13",
-                            "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\.gradle\\caches\\modules-2\\files-2.1\\org.scalatest\\scalatest-matchers-core_2.13\\3.2.16\\9f918ec3a813897712eb4e880da94839a8661bff\\scalatest-matchers-core_2.13-3.2.16-sources.jar"
+                            "name": "scalatest-freespec_2.13",
+                            "path": "C:\\Users\\USUARIO\\.gradle\\caches\\modules-2\\files-2.1\\org.scalatest\\scalatest-freespec_2.13\\3.2.16\\342c550d8876ce7b6c92d4c218411b45979bbd5c\\scalatest-freespec_2.13-3.2.16.jar"
                         },
                         {
-                            "name": "scalatest-matchers-core_2.13",
-                            "path": "C:\\Users\\USUARIO\\.gradle\\caches\\modules-2\\files-2.1\\org.scalatest\\scalatest-matchers-core_2.13\\3.2.16\\ba65129f9f78030911cfe4aee77d83eb9aec33ec\\scalatest-matchers-core_2.13-3.2.16.jar"
+                            "name": "scalatest-freespec_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\USUARIO\\.gradle\\caches\\modules-2\\files-2.1\\org.scalatest\\scalatest-freespec_2.13\\3.2.16\\865ae1f96a5ee7dbb8905e7d82ab72aff069064f\\scalatest-freespec_2.13-3.2.16-sources.jar"
                         }
                     ]
                 },
@@ -242,17 +242,17 @@
                 },
                 {
                     "organization": "org.scalatest",
-                    "name": "scalatest-freespec_2.13",
+                    "name": "scalatest-matchers-core_2.13",
                     "version": "3.2.16",
                     "artifacts": [
                         {
-                            "name": "scalatest-freespec_2.13",
-                            "path": "C:\\Users\\USUARIO\\.gradle\\caches\\modules-2\\files-2.1\\org.scalatest\\scalatest-freespec_2.13\\3.2.16\\342c550d8876ce7b6c92d4c218411b45979bbd5c\\scalatest-freespec_2.13-3.2.16.jar"
+                            "name": "scalatest-matchers-core_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\USUARIO\\.gradle\\caches\\modules-2\\files-2.1\\org.scalatest\\scalatest-matchers-core_2.13\\3.2.16\\9f918ec3a813897712eb4e880da94839a8661bff\\scalatest-matchers-core_2.13-3.2.16-sources.jar"
                         },
                         {
-                            "name": "scalatest-freespec_2.13",
-                            "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\.gradle\\caches\\modules-2\\files-2.1\\org.scalatest\\scalatest-freespec_2.13\\3.2.16\\865ae1f96a5ee7dbb8905e7d82ab72aff069064f\\scalatest-freespec_2.13-3.2.16-sources.jar"
+                            "name": "scalatest-matchers-core_2.13",
+                            "path": "C:\\Users\\USUARIO\\.gradle\\caches\\modules-2\\files-2.1\\org.scalatest\\scalatest-matchers-core_2.13\\3.2.16\\ba65129f9f78030911cfe4aee77d83eb9aec33ec\\scalatest-matchers-core_2.13-3.2.16.jar"
                         }
                     ]
                 },
@@ -561,22 +561,6 @@
                     ]
                 },
                 {
-                    "organization": "org.scalatest",
-                    "name": "scalatest-funspec_2.13",
-                    "version": "3.2.16",
-                    "artifacts": [
-                        {
-                            "name": "scalatest-funspec_2.13",
-                            "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\.gradle\\caches\\modules-2\\files-2.1\\org.scalatest\\scalatest-funspec_2.13\\3.2.16\\ded152a76959f5035faa5be1ac81d806a8a6d956\\scalatest-funspec_2.13-3.2.16-sources.jar"
-                        },
-                        {
-                            "name": "scalatest-funspec_2.13",
-                            "path": "C:\\Users\\USUARIO\\.gradle\\caches\\modules-2\\files-2.1\\org.scalatest\\scalatest-funspec_2.13\\3.2.16\\a9953cfa24cdc52796dd330395c6067efd38909f\\scalatest-funspec_2.13-3.2.16.jar"
-                        }
-                    ]
-                },
-                {
                     "organization": "com.google.guava",
                     "name": "failureaccess",
                     "version": "1.0.1",
@@ -609,6 +593,22 @@
                     ]
                 },
                 {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-funspec_2.13",
+                    "version": "3.2.16",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-funspec_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\USUARIO\\.gradle\\caches\\modules-2\\files-2.1\\org.scalatest\\scalatest-funspec_2.13\\3.2.16\\ded152a76959f5035faa5be1ac81d806a8a6d956\\scalatest-funspec_2.13-3.2.16-sources.jar"
+                        },
+                        {
+                            "name": "scalatest-funspec_2.13",
+                            "path": "C:\\Users\\USUARIO\\.gradle\\caches\\modules-2\\files-2.1\\org.scalatest\\scalatest-funspec_2.13\\3.2.16\\a9953cfa24cdc52796dd330395c6067efd38909f\\scalatest-funspec_2.13-3.2.16.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "com.typesafe",
                     "name": "config",
                     "version": "1.4.0",
@@ -625,22 +625,6 @@
                     ]
                 },
                 {
-                    "organization": "org.scala-lang.modules",
-                    "name": "scala-parallel-collections_2.13",
-                    "version": "1.0.4",
-                    "artifacts": [
-                        {
-                            "name": "scala-parallel-collections_2.13",
-                            "path": "C:\\Users\\USUARIO\\.gradle\\caches\\modules-2\\files-2.1\\org.scala-lang.modules\\scala-parallel-collections_2.13\\1.0.4\\9846d1ed01f24e90d7f9495987033b8274835431\\scala-parallel-collections_2.13-1.0.4.jar"
-                        },
-                        {
-                            "name": "scala-parallel-collections_2.13",
-                            "classifier": "sources",
-                            "path": "C:\\Users\\USUARIO\\.gradle\\caches\\modules-2\\files-2.1\\org.scala-lang.modules\\scala-parallel-collections_2.13\\1.0.4\\9a5e0141b0ef67295f9a98795dcd8b2dc1e36447\\scala-parallel-collections_2.13-1.0.4-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization": "org.checkerframework",
                     "name": "checker-qual",
                     "version": "3.33.0",
@@ -653,6 +637,22 @@
                         {
                             "name": "checker-qual",
                             "path": "C:\\Users\\USUARIO\\.gradle\\caches\\modules-2\\files-2.1\\org.checkerframework\\checker-qual\\3.33.0\\de2b60b62da487644fc11f734e73c8b0b431238f\\checker-qual-3.33.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-parallel-collections_2.13",
+                    "version": "1.0.4",
+                    "artifacts": [
+                        {
+                            "name": "scala-parallel-collections_2.13",
+                            "path": "C:\\Users\\USUARIO\\.gradle\\caches\\modules-2\\files-2.1\\org.scala-lang.modules\\scala-parallel-collections_2.13\\1.0.4\\9846d1ed01f24e90d7f9495987033b8274835431\\scala-parallel-collections_2.13-1.0.4.jar"
+                        },
+                        {
+                            "name": "scala-parallel-collections_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\USUARIO\\.gradle\\caches\\modules-2\\files-2.1\\org.scala-lang.modules\\scala-parallel-collections_2.13\\1.0.4\\9a5e0141b0ef67295f9a98795dcd8b2dc1e36447\\scala-parallel-collections_2.13-1.0.4-sources.jar"
                         }
                     ]
                 },
