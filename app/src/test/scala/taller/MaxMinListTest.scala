@@ -8,7 +8,7 @@ import org.scalatestplus.junit.JUnitRunner
 class MaxMinListTest extends AnyFunSuite {
     
 
-    test("Maximo de List(99, 8, 25, 30, 90, 101, 110) es 110") {
+    test("Maximo de List(99, 8, 25, 30, 90, 101, 110) con maxIt es 110") {
         val objMaxMinList = new MaxMinList()
         assert(objMaxMinList.maxIt(List(99, 8, 25, 30, 90, 101, 110)) == 110)
     }
@@ -33,7 +33,7 @@ class MaxMinListTest extends AnyFunSuite {
         assert(objMaxMinList.maxIt(List(99, 88, 77, 66, 55, 44, 33, 22, 11)) == 99)
     }
 
-    test("Maximo de List(4,0,1,5,6) es 6") {
+    test("Maximo de List(4,0,1,5,6) con maxLin es 6") {
         val objMaxMinList = new MaxMinList()
         assert(objMaxMinList.maxLin(List(4,0,1,5,6)) == 6)
     }
