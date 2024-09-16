@@ -1,10 +1,12 @@
 package taller
 
+import scala.annotation.tailrec
+
 class MaxMinList() {
 
-    //@ tailrec
+    
     def maxIt( l : List [ Int ]) : Int = {
-
+        @tailrec
         def maxItAux(l : List [Int] , max : Int): Int = {
             if (l.isEmpty) max
             else if (l.head > max) maxItAux(l.tail, l.head)
